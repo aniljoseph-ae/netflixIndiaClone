@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-    background-image: url("Images/02.Background.jpg");
+    background-image: url("./Images/02.\ Background.jpg");
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
@@ -147,30 +147,54 @@ nav button {
 {
     display: flex;
     justify-content: center;
-    max-width: 70vw;
+    max-width: 75vw;
     margin: auto;
     color: white;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 
 
-.sectionMedia {
+.sectionMedia1 {
     position: relative;
 }
 
-.sectionMedia img {
+.sectionMedia1 img {
     width: 555px;
     position: relative;
     z-index: 10;
+   
+    right: 30px;
 }
 
-.sectionMedia video {
+.sectionMedia1 video {
     position: absolute;
-    top: 51px;
-    right: 0;
+    top: 25%;
+    right: 10%;
+    width: 82%;
+}
+
+.sectionMedia3 {
+    position: relative;
+}
+
+.sectionMedia3 img {
     width: 555px;
+    position: relative;
+    z-index: 10;
+    right: 30px;
+    
+}
+
+.sectionMedia3 video {
+    position: absolute;
+    bottom: -117px;
+    left: 77px;
+    width: 352px;
+    height: 850px;
+
 }
 
 section.section1> div {
